@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Escáner QR y Código de Barras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📷 Escáner QR y Código de Barras</h1>
+
+  <div id="scanner-container">
+    <video id="video" autoplay></video>
+    <p id="result">🔍 Escaneando...</p>
+  </div>
+
+  <h2>📄 Historial de Códigos</h2>
+  <ul id="history"></ul>
+
+  <script src="https://cdn.jsdelivr.net/npm/@zxing/library@latest"></script>
+  <script src="script.js"></script>
+</body>
+</html>
